@@ -15,8 +15,8 @@ when appropriate.
    ```
 4. Set your API key and run:
    ```
-   export GROQ_API_KEY=your_key_here
-   python app.py
+   export GROQ_API_KEY=your_key_here(your_key_here)
+   python3 app.py
    ```
 5. Open http://localhost:5000 for a minimal chat UI, or POST directly:
    ```
