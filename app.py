@@ -20,7 +20,7 @@ from system_prompt import SYSTEM_PROMPT
 app = Flask(__name__, static_folder="static")
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "llama-3.1-8b-instant"
 
 # --- In-memory session state ---------------------------------------------
 # NOTE: fine for this assignment. For anything real, swap for Redis/DB.
